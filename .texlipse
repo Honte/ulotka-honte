@@ -1,0 +1,13 @@
+#TeXlipse project settings
+#Mon Nov 10 08:45:36 CET 2008
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=ulotka-wog.tex
+outputFile=ulotka-wog.pdf
+langSpell=pl
+markDer=true
+srcDir=

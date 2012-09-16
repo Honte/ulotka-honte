@@ -1,0 +1,13 @@
+Potrzebny sgf2dg i moduły fo perla, paczki debianowe są za stare.
+
+Debian
+------
+Instalujemy:
+$ sudo cpanp
+CPAN Terminal> i Games::Go::Diagram
+
+Podmieniamy jeden plik:
+sudo cp diag/Dg2Mp-patched.pm /usr/local/lib/perl/5.WERSJA.2/Games/Go/Dg2Mp.pm
+
+Kopiujemy exeka:
+sudo cp diag/sgf2dg.pl /usr/local/bin/sgf2dg
