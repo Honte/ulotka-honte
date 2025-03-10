@@ -20,6 +20,8 @@ w ścieżce `/app`.
 
 ### Debian
 
+> **WARN** Opis instalacji z 2012, na dzisiaj raczej niemożliwej do odtworzenia
+
 Paczki debianowe są za stare.
 
 Instalujemy:
