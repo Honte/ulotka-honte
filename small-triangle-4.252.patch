@@ -1,0 +1,11 @@
+--- /usr/share/perl5/Games/Go/Sgf2Dg/Dg2Mp.pm	2013-10-08 04:24:39.000000000 +0000
++++ /usr/share/perl5/Games/Go/Sgf2Dg/Dg2Mp.pm	2025-03-10 14:01:25.504699542 +0000
+@@ -99,7 +99,7 @@
+ def _triangle (expr m, n, color) =
+     pickup pencircle scaled mark_pen;
+     draw  ((0, .45)--(.39, -.225)--(-.39,-.225)--cycle)
+-        xscaled (stone_width) yscaled (stone_height)
++        xscaled (stone_width * .6) yscaled (stone_height * .6)
+         shifted boardXY(m, n) withcolor color;
+     pickup pencircle scaled normal_pen;
+ enddef;
